@@ -1,7 +1,7 @@
 const a = '```'
 
 exports.wait = () => {
-	return`*「 WAIT 」 EN CURSO*`
+	return`*「 Espera 」 EN CURSO*`
 }
 
 exports.succes = () => {
@@ -9,15 +9,15 @@ exports.succes = () => {
 }
 
 exports.lvlon = () => {
-	return`*「 ENABLE 」 LEVELING*`
+	return`*「 Activado 」Niveles*`
 }
 
 exports.lvloff = () => {
-	return`*「 DISABLE 」 LEVELING*`
+	return`*「 Desactivado 」 Niveles*`
 }
 
 exports.lvlnul = () => {
-	return`*LEVELMU MASIH KOSONG*`
+	return`*SUS NIVELES SIGUEN VACÍOS*`
 }
 
 exports.lvlnoon = () => {
@@ -137,42 +137,29 @@ ${a}❏MAKER MENU${a}
  ${a}│•${prefix}sticker${a}
  ${a}│•${prefix}quotemaker${a}
  ${a}│•${prefix}qrcode${a}
- ${a}│•${prefix}nulis${a}
- ${a}│•${prefix}tahta${a}
  ${a}╰•${prefix}ttp${a}
  
 ${a}❏FUN MENU${a}
  ${a}│•${prefix}lirik${a}
- ${a}│•${prefix}artinama${a}
- ${a}│•${prefix}chord${a}
- ${a}│•${prefix}bisakah${a}
- ${a}│•${prefix}kapankah${a}
- ${a}│•${prefix}apakah${a}
  ${a}│•${prefix}rate${a}
- ${a}│•${prefix}tebakgambar${a}
- ${a}│•${prefix}meme${a}
  ${a}│•${prefix}textlight${a}
  ${a}│•${prefix}glitchtext${a}
- ${a}│•${prefix}slap${a}
- ${a}│•${prefix}tampar${a}
  ${a}│•${prefix}moddroid${a} *[VIP]*
  ${a}╰•${prefix}happymod${a} *[VIP]*
  
-${a}❏MUTUAL${a}
+${a}❏MUTUO${a}
  ${a}│•${prefix}mutual${a}
  ${a}╰•${prefix}next${a}
  
 ${a}❏MEDIA MENU${a}
  ${a}│•${prefix}brainly${a} *[VIP]*
  ${a}│•${prefix}pinterest${a}
- ${a}│•${prefix}resepmasakan${a}
  ${a}│•${prefix}igstalk${a}
- ${a}│•${prefix}bitly${a}
  ${a}│•${prefix}tiktokstalk${a} *[VIP]*
  ${a}│•${prefix}ssweb${a}
  ${a}╰•${prefix}kbbi${a}
  
-${a}❏SONG${a}
+${a}❏CANCIONES${a}
  ${a}╰•${prefix}joox${a} *[VIP]*
  
 ${a}❏NSFW${a}
@@ -186,7 +173,7 @@ ${a}❏NSFW${a}
  ${a}│•${prefix}peluk${a}
  ${a}╰•${prefix}ranime${a}
  
-${a}❏LIMIT & UANG${a}
+${a}❏LIMITE Y DINERO${a}
  ${a}│•${prefix}limit${a}
  ${a}│•${prefix}buylimit${a}
  ${a}│•${prefix}transfer${a}
@@ -194,7 +181,7 @@ ${a}❏LIMIT & UANG${a}
  ${a}│•${prefix}giftlimit${a}
  ${a}╰•${prefix}leaderboard${a}
  
-${a}❏GROUP MENU${a}
+${a}❏MENU DEL GRUPO${a}
  ${a}│•${prefix}delete${a}
  ${a}│•${prefix}hidetag${a}
  ${a}│•${prefix}blocklist${a}
@@ -210,7 +197,7 @@ ${a}❏GROUP MENU${a}
  ${a}│•${prefix}demote${a}
  ${a}│•${prefix}promote${a}
  ${a}│•${prefix}listadmin${a}
- ${a}│•${prefix}group [buka/tutup]${a}
+ ${a}│•${prefix}group [open/closed]${a}
  ${a}│•${prefix}leveling [enable/disable]${a}
  ${a}│•${prefix}nsfw [1/0]${a}
  ${a}│•${prefix}simih [1/0]${a}
@@ -218,32 +205,31 @@ ${a}❏GROUP MENU${a}
  ${a}│•${prefix}antilink [1/0]${a}
  ${a}╰•${prefix}nobadword [enable/disable]${a}
  
-${a}❏TOOLS${a}
+${a}❏HERRAMIENTAS${a}
  ${a}│•${prefix}bass${a}
  ${a}│•${prefix}tomp3${a}
  ${a}│•${prefix}slowmo${a}
  ${a}│•${prefix}gemok${a}
  ${a}╰•${prefix}tupai${a}
  
-${a}❏CLOUD STORAGE${a}
- ${a}│•${prefix}addsticker${a}
- ${a}│•${prefix}getsticker${a}
- ${a}│•${prefix}stickerlist${a}
- ${a}│•${prefix}addvideo${a}
- ${a}│•${prefix}getvideo${a}
- ${a}│•${prefix}videolist${a}
- ${a}│•${prefix}getimage${a}
- ${a}│•${prefix}addImage${a}
- ${a}│•${prefix}imagelist${a}
- ${a}│•${prefix}addaudio${a}
- ${a}│•${prefix}getaudio${a}
- ${a}╰•${prefix}audiolist${a}
+${a}❏ALMACENAMIENTO EN LA NUBE${a}
+ ${a}│•${prefix}addstik${a}
+ ${a}│•${prefix}getstik${a}
+ ${a}│•${prefix}liststik${a}
+ ${a}│•${prefix}addvid${a}
+ ${a}│•${prefix}getvid${a}
+ ${a}│•${prefix}listvid${a}
+ ${a}│•${prefix}getimg${a}
+ ${a}│•${prefix}addimg${a}
+ ${a}│•${prefix}listimg${a}
+ ${a}│•${prefix}addvn${a}
+ ${a}│•${prefix}getvn${a}
+ ${a}╰•${prefix}listvn${a}
  
-${a}❏OWNER MENU${a}
+${a}❏MENU DEL DUEÑO${a}
  ${a}│•${prefix}bc${a}
  ${a}│•${prefix}addbadword${a}
  ${a}│•${prefix}delbadword${a}
- ${a}│•${prefix}bcgc${a}
  ${a}│•${prefix}kickall${a}
  ${a}│•${prefix}setreply${a}
  ${a}│•${prefix}setprefix${a}
@@ -255,73 +241,72 @@ ${a}❏OWNER MENU${a}
  ${a}│•${prefix}clone${a}
  ${a}╰•${prefix}setppbot${a}
  
-${a}❏ABOUT BOT${a}
- ${a}│ • Nombre : ${client.user.name}${a}
- ${a}│ • Navegador : ${client.browserDescription[1]}${a}
- ${a}│ • server : ${client.browserDescription[0]}${a}
- ${a}│ • version : ${client.browserDescription[2]}${a}
- ${a}│ • Velocidad : ${process.uptime()}${a}
- ${a}│ • Celular : ${client.user.phone.device_manufacturer}${a}
- ${a}╰ • version de wa : ${client.user.phone.wa_version}${a}
+${a}❏SOBRE EL BOT${a}
+ ${a}│ Nombre : ${client.user.name}${a}
+ ${a}│ Navegador : ${client.browserDescription[1]}${a}
+ ${a}│ server : ${client.browserDescription[0]}${a}
+ ${a}│ version : ${client.browserDescription[2]}${a}
+ ${a}│ Velocidad : ${process.uptime()}${a}
+ ${a}│ Celular : ${client.user.phone.device_manufacturer}${a}
+ ${a}╰ version de wa : ${client.user.phone.wa_version}${a}
  
 ${a}❏THANGKS TO${a}
  ${a}│${a}
- ${a}│ • 🌷♞  𝕤αт𝕒ⓝ  ☯🐺${a}
- ${a}│ • Mr. Pato <partner>${a}
- ${a}│ • Nathalia <Ayuda>${a}
- ${a}│ • Satanic Creations <team>${a}
- ${a}│${a}
- ${a}╰ • NOTE : Siganos en youtube abortos${a}
+ ${a}│ 🌷♞  𝕤αт𝕒ⓝ  ☯🐺${a}
+ ${a}│ Mr. Pato <partner>${a}
+ ${a}│ Nathalia <Ayuda>${a}
+ ${a}│ Satanic Creations <equipo>${a}
+ ${a}╰ NOTE : Siganos en youtube abortos${a}
 `
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel, role) => {
 	return`
 	
-*「 SELAMAT 」*
-┏⊱ *Nama* : ${pushname}
-┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
+*「 Felicitaciones 」*
+┏⊱ *Nombre* : ${pushname}
+┣⊱ *Numero* : wa.me/${sender.split("@")[0]}
 ┣⊱ *Xp* : ${getLevelingXp(sender)}
-┣⊱ *Limit* : +3
+┣⊱ *Limites* : +3
 ┣⊱ *Role*: ${role}
-┗⊱ *Level* : ${getLevel} ⊱ ${getLevelingLevel(sender)}
+┗⊱ *Nivel* : ${getLevel} ⊱ ${getLevelingLevel(sender)}
 `}
  
 exports.limitend = (pushname) => {
-	return`*maaf ${pushname} limit hari ini habis*\n*beli limit untuk mendapatkan limit/ naik level*`
+	return`*Lo siento ${pushname} el límite de hoy se agota*\n*límite de compra para obtener límite / subir de nivel*`
 }
 
 exports.limitcount = (limitCounts) => {
 	return`
 *「 LIMIT COUNT 」*
-sisa limit anda : ${limitCounts}
+su límite restante : ${limitCounts}
 
-NOTE : untuk mendapatkan limit. bisa lewat naik level atau buylimit`
+NOTE : para conseguir el límite. puede pasar el nivel o buylimit`
 }
 
 exports.satukos = () => {
-	return`*Tambah parameter 1/enable atau 0/disable`
+	return`*Añadir parámetro 1/activar o 0/desactivar`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`*┏⊱ 「 ATM 」⊰━┓*\n┣⊱ *Nama* : ${pushname}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
+	return`*┏⊱ 「 ATM 」⊰━┓*\n┣⊱ *Nombre* : ${pushname}\n┣⊱ *Numero* : ${sender.split("@")[0]}\n┣⊱ *Dinero* : ${uangkau}\n┗━━━━━━━━━━`
 }
 
 exports.premadd = (pnom) => {
 	return`*「 PREMIUM ADD 」*
 
 *Name* : ${pnom}
-*Expired* : 30 DAY\n*thank for order premium*`
+*Expira en* : 30 DAY\n*gracias por la prima del pedido*`
 }
 
 exports.dellprem = (hnom) => {
 	return`*「 PREMIUM DELETE 」*
 
 *Name* : ${hnom}
-*Expired* : NOW:v\n*thank for order premium back soon for buying again:D*`
+*Caducado* :v\n*gracias por la prima de pedido de nuevo pronto para comprar de nuevo:D*`
 }
 
 exports.premon = (pushname) => {
-	return`MAAF ${pushname} ANDA BUKAN USER PREMIUM`
+	return`MAAF ${pushname} USTED NO ES UN USUARIO PREMIUM`
 }
 
