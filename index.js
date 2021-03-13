@@ -793,7 +793,7 @@ client.on('group-participants-update', async (anu) => {
 					var gh = body.slice(9)
 					var porn = gh.split("&")[0];
 					var hub = gh.split("&")[1];
-					if (args.length < 1) return reply(`「❗」Contoh : ${prefix}pornhub Ramlan & Hub`)
+					if (args.length < 1) return reply(`「❗」Ejemplo : ${prefix}pornhub Satan & Pato`)
 					reply(ind.wait())
 					alan = await getBuffer(`https://vinz.zeks.xyz/api/pornhub?text1=${porn}&text2=${hub}`)
 					client.sendMessage(from, alan, image, {quoted: mek})
@@ -825,9 +825,9 @@ client.on('group-participants-update', async (anu) => {
 				case 'nulis':
 					if (!isRegistered) return reply(ind.noregis())
 					if (isLimit(sender)) return reply(ind.limitend(pusname))
-					if (args.length < 1) return reply(`Teksnya mana kak? Contoh : ${prefix}nulis Ramlan baik hati`)
+					if (args.length < 1) return reply(`El texto es donde esta? Ejemplo: ${prefix}escribir texto amablemente`)
 					nul = body.slice(7)
-					reply('「❗」WAIT BRO GUE NULIS DUMLU YAKAN')
+					reply('「❗」Espera bro')
 					tak = await getBuffer(`https://api.zeks.xyz/api/nulis?text=${nul}&apikey=apivinz`)
 					client.sendMessage(from, tak, image, {quoted: mek, caption: 'Lebih baik nulis sendiri ya kak :*'})
 					await limitAdd(sender)				
@@ -835,9 +835,9 @@ client.on('group-participants-update', async (anu) => {
 				case 'tahta':
 					if (!isRegistered) return reply(ind.noregis())
 					if (isLimit(sender)) return reply(ind.limitend(pusname))
-					if (args.length < 1) return reply(`「❗」Ejemplo : ${prefix}hartatahta hanya dia`)
+					if (args.length < 1) return reply(`「❗」Ejemplo : ${prefix}propiedad es sólo él`)
 					har = body.slice(12)
-					reply('「❗」Hirti Tihti Tai Anjg :v')
+					reply('「❗」a :v')
 					buffer = await getBuffer(`https://api.zeks.xyz/api/hartatahta?text=${har}&apikey=apivinz`)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					await limitAdd(sender)
@@ -1016,7 +1016,7 @@ client.on('group-participants-update', async (anu) => {
                    if (isLimit(sender)) return reply(ind.limitend(pusname))
                      hmm = await fetchJson(`https://freerestapi.herokuapp.com/api/v1/igs?u=${body.slice(9)}`)
                      buffer = await getBuffer(hmm.data.profilehd)
-                     hasil = `Fullname : ${hmm.data.fullname}\npengikut : ${hmm.data.follower}\nMengikuti : ${hmm.data.following}\nPrivate : ${hmm.data.private}\nVerified : ${hmm.data.verified}\nbio : ${hmm.data.bio}`
+                     hasil = `Fullname : ${hmm.data.fullname}\nSeguidores : ${hmm.data.follower}\nSeguidos : ${hmm.data.following}\nPrivado : ${hmm.data.private}\nVerified : ${hmm.data.verified}\nbio : ${hmm.data.bio}`
                     client.sendMessage(from, buffer, image, {quoted: mek, caption: hasil})
                     await limitAdd(sender)
 					break 
@@ -1027,10 +1027,10 @@ client.on('group-participants-update', async (anu) => {
                 const namaUser = q.substring(0, q.indexOf('|') - 0)
                 const umurUser = q.substring(q.lastIndexOf('|') + 1)
                 const serialUser = createSerial(20)
-                if(isNaN(umurUser)) return await reply('Umur harus berupa angka!!')
-                if (namaUser.length >= 30) return reply(`why is your name so long it's a name or a train`)
-                if (umurUser > 40) return reply(`your age is too  old maximum 40 years`)
-                if (umurUser < 12) return reply(`your age is too young minimum 12 years`)
+                if(isNaN(umurUser)) return await reply('La edad debe ser un número!!')
+                if (namaUser.length >= 30) return reply(`¿por qué su nombre es tan largo, que es un nombre o un tren`)
+                if (umurUser > 40) return reply(`su edad es demasiado mayor máximo 40 años`)
+                if (umurUser < 12) return reply(`su edad es demasiado joven mínimo 12 años`)
                 try {
 					ppimg = await client.getProfilePicture(`${sender.split('@')[0]}@c.us`)
 				} catch {

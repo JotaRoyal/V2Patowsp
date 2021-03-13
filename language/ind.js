@@ -158,10 +158,7 @@ ${a}❏MEDIA MENU${a}
  ${a}│•${prefix}tiktokstalk${a} *[VIP]*
  ${a}│•${prefix}ssweb${a}
  ${a}╰•${prefix}kbbi${a}
- 
-${a}❏CANCIONES${a}
- ${a}╰•${prefix}joox${a} *[VIP]*
- 
+
 ${a}❏NSFW${a}
  ${a}│•${prefix}anjing${a}
  ${a}│•${prefix}blowjob${a}
