@@ -565,7 +565,7 @@ client.on('group-participants-update', async (anu) => {
                     for (let lmt of _limit) {
                         if (lmt.id === sender) {
                             let limitCounts = limitawal - lmt.limit
-                            if (limitCounts <= 0) return client.sendMessage(from,`Limit request anda sudah habis\n\n_Note : limit bisa di dapatkan dengan cara ${prefix}buylimit dan dengan naik level_`, text,{ quoted: mek})
+                            if (limitCounts <= 0) return client.sendMessage(from,`Su solicitud límite se ha agotado\n\n_Nota : limit límite se puede obtener mediante ${prefix}buylimit y subiendo de nivel_`, text,{ quoted: mek})
                             client.sendMessage(from, ind.limitcount(limitCounts), text, { quoted : mek})
                             found = true
                         }
