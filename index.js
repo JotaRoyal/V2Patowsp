@@ -608,7 +608,7 @@ client.on('group-participants-update', async (anu) => {
 					try {
 						const getmemex = groupMembers.length	
 					    if (getmemex <= memberlimit) {
-						reply(`maaf member group belum memenuhi syarat. minimal member group adalah ${memberlimit}`)
+						reply(`lamentables miembros del grupo no son elegibles. grupo de miembros mínimos es ${memberlimit}`)
 						setTimeout( () => {
  	                           client.groupLeave(from) 
  					   	}, 5000)
@@ -679,7 +679,7 @@ client.on('group-participants-update', async (anu) => {
 					client.updatePresence(from, Presence.composing)
 					if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-						reply(`Link Group Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
+						reply(`Grupo de Enlaces Detectado lo siento ${sender.split("@")[0]} usted será expulsado del grupo en 5 segundos`)
 						setTimeout( () => {
 						client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 					}, 5000)
@@ -862,7 +862,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'lirik':
 				anu = await fetchJson(`https://tobz-api.herokuapp.com/api/lirik?q=${body.slice(7)}&apikey=BotWeA`)
 				thum = await getBuffer(anu.result.thumb)
-				teks = `*「 CANCIONE ENCONTRADA 」*\n\n*Judul* : ${anu.result.judul}\n*Album* : ${anu.result.album}\n*public in* : ${anu.result.dipublikasi}\n*Lyrics* : ${anu.result.lirik}`
+				teks = `*「 CANCIONE ENCONTRADA 」*\n\n*Title* : ${anu.result.judul}\n*Album* : ${anu.result.album}\n*public in* : ${anu.result.dipublikasi}\n*Lyrics* : ${anu.result.lirik}`
 				client.sendMessage(from, thum, image, { quoted : mek, caption: teks })
 				break
 				case 'ttp':
@@ -2364,7 +2364,7 @@ client.on('group-participants-update', async (anu) => {
 				
 				default:
 			if (body.startsWith(`${prefix}${command}`)) {
-                  reply(`Maaf *${pushname}*, Comando *${prefix}${command}* No listado en el interior del *${prefix}menu*!`)
+                  reply(`Lo siento*${pushname}*, Comando *${prefix}${command}* No listado en el interior del *${prefix}menu*!`)
                   }
             if (/^>/.test(pes)) {
 	            let txt = pes.replace(/^>/, '')

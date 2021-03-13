@@ -307,6 +307,6 @@ exports.dellprem = (hnom) => {
 }
 
 exports.premon = (pushname) => {
-	return`MAAF ${pushname} USTED NO ES UN USUARIO PREMIUM`
+	return`Lo siento ${pushname} USTED NO ES UN USUARIO PREMIUM`
 }
 
