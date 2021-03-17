@@ -122,7 +122,6 @@ ${a} ┏━━❉ ABOUT USER${a}
  ${a}┣⊱ By: 𝕸𝖗.𝕻𝖆𝖙𝖔⚜️🦆⁩⁩
 ${a} ┣⊱ Nombre : ${pushname}${a}
  ${a}┣⊱ Premium :${a} ${premi}
- ${a}┣⊱ Numero : wa.me/${sender.split("@")[0]}${a}
  ${a}┣⊱ Dinero : Rp${uangku}${a}
  ${a}┣⊱ XP : ${getLevelingXp(sender)}/${reqXp} ${a}
  ${a}┣⊱ Level : ${getLevelingLevel(sender)}${a}
